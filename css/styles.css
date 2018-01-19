@@ -92,11 +92,15 @@ fieldset textarea {
 	border: none;
 	border-radius: 4px;
 	outline: none;
+	transition: background-color .8s;
 }
 
 fieldset input:focus,
 fieldset select:focus,
-fieldset textarea:focus { border: 2px solid #2b313b; }
+fieldset textarea:focus {
+	border: 2px solid #2b313b;
+	background-color: #0caab0;
+}
 
 [required]::placeholder {
 	text-align: right;
