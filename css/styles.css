@@ -127,6 +127,8 @@ button {
 	cursor: pointer;
 }
 
+button:focus { outline: none; } /* delete blue border */
+
 footer {
 	padding-top: 30px;
 	padding-bottom: 200px;
