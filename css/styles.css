@@ -136,3 +136,35 @@ footer {
 }
 
 footer p { color: #505b6e; }
+
+@media (min-width: 768px) {
+
+	form { width: 50%; }
+
+	.newsletter-header {
+		margin-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	fieldset:first-of-type { margin-bottom: 30px; }
+
+	fieldset legend { padding-top: 50px; }
+
+	fieldset:first-of-type label {
+		display: inline-block;
+		width: 30%;
+	}
+
+	fieldset:first-of-type input,
+	fieldset select {
+		width: 70%;
+		margin-top: 0;
+	}
+
+	fieldset:first-of-type .zip-code { width: 30%; }
+
+	footer {
+		padding-top: 40px;
+		padding-bottom: 260px;
+	}
+}
