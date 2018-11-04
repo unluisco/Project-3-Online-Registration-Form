@@ -93,7 +93,7 @@ fieldset input:focus,
 fieldset select:focus,
 fieldset textarea:focus {
 	border: 2px solid #2b313b;
-	background-color: #0caab0;
+	background-color: rgba(12, 170, 176, .6);
 }
 
 [required]::placeholder {
